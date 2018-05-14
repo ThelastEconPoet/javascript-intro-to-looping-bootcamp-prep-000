@@ -27,9 +27,16 @@ function doWhileLoop(array) {
   }
   
   do {
+<<<<<<< HEAD
     array.pop();
   }
   
   while (array.length > 0 && maybeTrue());
+=======
+    [array.pop()];
+  }
+  
+  while ([array.length > 0 && maybeTrue()]);
+>>>>>>> c8a799df19a8c6692b8d320672fcf6ace999de17
   return (array)
 }
